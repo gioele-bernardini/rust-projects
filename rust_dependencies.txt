@@ -1,0 +1,14 @@
+QUESTO E' DA METTERE IN .cargo/config.toml
+[registries]
+AP_kellnr = { index = "sparse+http://advancedprogramming.disi.unitn.it/api/v1/crates/", token="1854794833f38b0bd9a13057b5cee171" }
+[workspace]
+
+QUESTO E' DA METTERE NEL cargo.toml DEL PACKAGE RUST DI TURNO
+[package]
+authors = ["myauthor "]
+edition = "2018"
+name = "my_crate"
+version = "0.1.0"
+
+[dependencies]
+robotics_lib = {version = "0.1.17", registry = "AP_kellnr"}
