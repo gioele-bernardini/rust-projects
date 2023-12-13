@@ -1,0 +1,1 @@
+/home/gioele/rust-projects/exercises/paper-3/car-park/target/debug/libcar_park.rlib: /home/gioele/rust-projects/exercises/paper-3/car-park/src/lib.rs /home/gioele/rust-projects/exercises/paper-3/car-park/src/park/mod.rs

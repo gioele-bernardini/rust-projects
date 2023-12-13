@@ -1,0 +1,10 @@
+[workspace]
+
+[package]
+authors = ["myauthor "]
+edition = "2018"
+name = "my_crate"
+version = "0.1.0"
+
+[dependencies]
+robotics_lib = {version = "0.1.17", registry = "AP_kellnr"}
