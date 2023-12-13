@@ -1,9 +1,10 @@
-QUESTO E' DA METTERE IN .cargo/config.toml
+-> INSERT THESE LINES BELOW ON YOUR ~/.cargo/config.toml
 [registries]
 AP_kellnr = { index = "sparse+http://advancedprogramming.disi.unitn.it/api/v1/crates/", token="1854794833f38b0bd9a13057b5cee171" }
 [workspace]
 
-QUESTO E' DA METTERE NEL cargo.toml DEL PACKAGE RUST DI TURNO
+
+-> INSERT THESE LINES BELOW IN Cargo.toml OF YOUR PACKAGE
 [package]
 authors = ["myauthor "]
 edition = "2018"
